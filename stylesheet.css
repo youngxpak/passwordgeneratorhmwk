@@ -1,29 +1,42 @@
+.jumbotron jumbotron-fluid{
+    text-align: center
+    
+}
+
 .card {
     border-style: dashed !important;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align: center;
+    
+
 }
 
 .pwbutton {
         border: none;
         color: white;
-        padding: 30px;
+        padding: 20px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
-        margin: 6px 12px;
+        margin: 12px 12px;
         cursor: pointer;
-        border-radius: 30%;
+        border-radius: 100%;
+        width: 25%;
 }
 
 .copybutton {border: none;
     color: black;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 6px 12px;
+    margin: 12px 12px;
     cursor: pointer;
-    border-radius: 30%;
-   
+    border-radius: 100%;
+    width: 25%;
 }
