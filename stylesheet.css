@@ -1,3 +1,29 @@
 .card {
     border-style: dashed !important;
 }
+
+.pwbutton {
+        border: none;
+        color: white;
+        padding: 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 6px 12px;
+        cursor: pointer;
+        border-radius: 30%;
+}
+
+.copybutton {border: none;
+    color: black;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 12px;
+    cursor: pointer;
+    border-radius: 30%;
+   
+}
