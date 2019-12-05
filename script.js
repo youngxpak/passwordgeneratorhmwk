@@ -1,16 +1,25 @@
 //Generate random Password
 
-function genPassword(length) {
-   var result           = '';
-   var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-   var charactersLength = characters.length;
-   for ( var i = 0; i < length; i++ ) {
-      result += characters.charAt(Math.floor(Math.random() * charactersLength));
-   }
-   return result;
+var char = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+var num = "0123456789";
+var symbol = "! @ # $ % ^ & * + ?";
+
+// prompt for options
+function passwordLengthPrompt(){
+    var length = prompt ("how long password");
+    if(isNaNlength || !length)
+    return;
+    }
+    return length;
+
+//prompt for options
+function generatePassword(){
+    var passwordLength = passwordLengthPrompt();
+    if (passwordLength <= 7 || passwordLength > 128){
+        alert("Too Short!") 
+    }
+       
+    
 }
 
-console.log(genPassword(5));
-
-<button onclick="myFunction()">Generate Password</button>
-
+function getRandomUpper()
